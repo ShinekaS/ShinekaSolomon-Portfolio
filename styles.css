@@ -27,14 +27,27 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-
 .headshot	{
 	width: 300px;
 	height: auto;
 	border-radius: 50%;
 	justify-items: center;
-	
 }
+
+/* About me page starts*/
+
+.aboutImg {
+	width: 200px;
+	height: auto;
+	border-radius: 70%;
+	margin:90px;
+	
+	box-shadow: 0 20px 32px rgba(36, 40, 55, 0.517);
+
+}
+
+/* About me page ends */
+
 #greeting {
 	display: flex;
 	justify-content: center;
