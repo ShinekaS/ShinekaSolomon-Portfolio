@@ -34,6 +34,18 @@ body {
 	justify-items: center;
 }
 
+/* Main page Language Icons starts  */
+
+.lngIcon {
+	width: 75px;
+	height: auto;
+	
+}
+.iconDiv {
+	justify-items: center;
+}
+
+
 /* About me page starts*/
 
 .aboutImg {
