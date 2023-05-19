@@ -43,8 +43,40 @@ body {
 	margin:90px;
 	
 	box-shadow: 0 20px 32px rgba(36, 40, 55, 0.517);
-
+	
 }
+/* Container */
+
+	.container {
+		margin: 0 auto;
+		max-width: calc(100% - 100px);
+		width: 1200px;
+	}
+
+		@media screen and (max-width: 1280px) {
+
+			.container {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 980px) {
+
+			.container {
+				width: 100%;
+			}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			.container {
+				width: 100%;
+				max-width: 100%;
+			}
+
+		}
 
 /* About me page ends */
 
@@ -61,10 +93,10 @@ blockquote, q {
 	quotes: none;
 }
 
-	blockquote:before, blockquote:after, q:before, q:after {
-		content: '';
-		content: none;
-	}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
 
 table {
 	border-collapse: collapse;
@@ -224,38 +256,6 @@ input, select, textarea {
 		margin: 0 0 0.25em 0;
 	}
 
-/* Container */
-
-	.container {
-		margin: 0 auto;
-		max-width: calc(100% - 100px);
-		width: 1200px;
-	}
-
-		@media screen and (max-width: 1280px) {
-
-			.container {
-				width: 100%;
-			}
-
-		}
-
-		@media screen and (max-width: 980px) {
-
-			.container {
-				width: 100%;
-			}
-
-		}
-
-		@media screen and (max-width: 736px) {
-
-			.container {
-				width: 100%;
-				max-width: 100%;
-			}
-
-		}
 
 /* Row */
 
@@ -1862,7 +1862,7 @@ input, select, textarea {
 
 /* Sidebar */
 
-	#sidebar h2 {
+	#leftText h2 {
 		font-size: 1.5em;
 	}
 
